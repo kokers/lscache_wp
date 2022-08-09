@@ -3644,3 +3644,25 @@ button[aria-label][data-balloon-pos] {
 	white-space: normal;
 	width: 100%;
 }
+
+/* =======================================
+    WP Dark Mode style adjustments
+======================================= */
+
+.wp-dark-mode-active .litespeed-wrap .nav-tab-active {
+    background: #242525;
+    border-bottom-color: #242525;
+}
+
+.wp-dark-mode-active .litespeed-wrap .nav-tab:focus:not(.nav-tab-active), .wp-dark-mode-active .litespeed-wrap .nav-tab:hover:not(.nav-tab-active) {
+    background-color: #272828;
+    color: #a0988a;
+}
+
+.wp-dark-mode-active circle.litespeed-pie_bg {
+    stroke: #494d4d;
+}
+
+.wp-dark-mode-active g.litespeed-pie_info text:not(.litespeed-pie-done) {
+    fill: #beb6ab;
+}
